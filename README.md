@@ -8,71 +8,71 @@ This project presents a comprehensive loan portfolio performance and risk analyt
 
 The objective was to transform raw financial loan data into strategic insights covering:
 
-Loan demand trends
+-Loan demand trends
 
-Credit exposure distribution
+-Credit exposure distribution
 
-Portfolio risk assessment
+-Portfolio risk assessment
 
-Repayment performance
+-Repayment performance
 
-Profitability evaluation
+-Profitability evaluation
 
 The project simulates a real-world banking analytics environment used by credit risk and financial performance teams.
 
 🛠 Technology Stack
 
-Python (Pandas, NumPy, Matplotlib)
+-Python (Pandas, NumPy, Matplotlib)
 
-Power BI
+-Power BI
 
-DAX (Data Analysis Expressions)
+-DAX (Data Analysis Expressions)
 
-Data Cleaning & Feature Engineering
+-Data Cleaning & Feature Engineering
 
-Financial KPI Modeling
+-Financial KPI Modeling
 
 🔎 Phase 1: Data Analysis Using Python
 
 1️⃣ Data Preparation
 
-Converted issue_date to datetime format
+-Converted issue_date to datetime format
 
-Engineered Month-Year features for time-series analysis
+-Engineered Month-Year features for time-series analysis
 
-Validated financial columns (loan_amount, total_payment, int_rate, dti)
+-Validated financial columns (loan_amount, total_payment, int_rate, dti)
 
-Performed data quality checks and aggregation
+-Performed data quality checks and aggregation
 
 2️⃣ Core Business KPIs Computed
 
 Metric	Value
 
-Total Loan Applications	- 38,576
+-Total Loan Applications	- 38,576
 
-Total Funded Amount	- ₹435.76M
+-Total Funded Amount	- ₹435.76M
 
-Total Amount Received	- ₹473.07M
+-Total Amount Received	- ₹473.07M
 
-Average Interest Rate	- 12.05%
+-Average Interest Rate	- 12.05%
 
 3️⃣ Credit Risk Modeling
 
 Segmented loans into:
 
-Good Loans (Fully Paid + Current) → 33K
+-Good Loans (Fully Paid + Current) → 33K
 
-Bad Loans (Charged Off) → 5K
+-Bad Loans (Charged Off) → 5K
 
-Default Rate → 13.82%
+-Default Rate → 13.82%
 
 4️⃣ Profitability Analysis
 
 Calculated Recovery Rate:
 
-Recovery % = Amount Received ÷ Funded Amount
+-Recovery % = Amount Received ÷ Funded Amount
 
-Recovery Rate = 108.56%
+-Recovery Rate = 108.56%
 
 This indicates effective principal recovery plus interest earnings, demonstrating portfolio profitability.
 
@@ -80,17 +80,17 @@ This indicates effective principal recovery plus interest earnings, demonstratin
 
 Performed multi-dimensional analysis across:
 
-Loan term (36 vs 60 months)
+-Loan term (36 vs 60 months)
 
-Employment length
+-Employment length
 
-Home ownership
+-Home ownership
 
-Loan purpose
+-Loan purpose
 
-State-level funding distribution
+-State-level funding distribution
 
-Monthly good vs bad loan trends
+-Monthly good vs bad loan trends
 
 📊 Phase 2: Interactive Dashboard (Power BI)
 
@@ -98,45 +98,45 @@ Designed a professional, executive-level dashboard structured into:
 
 🔹 Executive KPI Section
 
-Total Applications
+-Total Applications
 
-Funded Amount
+-Funded Amount
 
-Amount Received
+-Amount Received
 
-Recovery %
+-Recovery %
 
-Default %
+-Default %
 
-Avg Interest & Avg DTI
+-Avg Interest & Avg DTI
 
 🔹 Trend Analysis
 
-Monthly Loan Application Growth
+-Monthly Loan Application Growth
 
-Monthly Loan Quality Trend (Good vs Bad)
+-Monthly Loan Quality Trend (Good vs Bad)
 
 🔹 Exposure Analysis
 
-Funded Amount by Loan Term
+-Funded Amount by Loan Term
 
-Loan Status Distribution
+-Loan Status Distribution
 
-Funding concentration insights
+-Funding concentration insights
 
 🔹 Executive Insights Page
 
 A separate insights page summarizing:
 
-Portfolio Growth
+-Portfolio Growth
 
-Funding Concentration
+-Funding Concentration
 
-Credit Risk Assessment
+-Credit Risk Assessment
 
-Loan Quality Stability
+-Loan Quality Stability
 
-Profitability Performance
+-Profitability Performance
 
 This separation enhances clarity between visual analytics and strategic interpretation.
 
@@ -157,9 +157,13 @@ Portfolio quality remained stable across monthly trends.
 This project demonstrates the ability to:
 
 ✔ Monitor credit risk
+
 ✔ Evaluate portfolio profitability
+
 ✔ Analyze time-series growth trends
+
 ✔ Perform exposure segmentation
+
 ✔ Translate analytics into executive insights
 
 🚀 Skills Demonstrated
@@ -181,7 +185,9 @@ End-to-end analytical workflow
 🎯 Project Classification
 
 Domain: Financial Analytics
+
 Type: End-to-End Data Analytics Project
+
 Level: Advanced (Performance + Risk + Profitability Integration)
 
 📌 Future Enhancements
@@ -196,8 +202,10 @@ Interactive drill-through analytics
 
 👩‍💻 Author
 
-Anita
+Anitta Joy
+
 B.Sc. Mathematics (2025)
+
 Aspiring Data Analyst | Financial Analytics Enthusiast
 
 🏁 Conclusion
